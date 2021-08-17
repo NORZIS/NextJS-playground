@@ -7,12 +7,13 @@ import createError from 'http-errors';
 const onError: ErrorHandler<NextApiRequest, NextApiResponse> = (
   err,
   req,
-  res,
-  next
+  res
 ) => {
   if (err) {
     console.error(err);
-    next(createError(500, 'internet server error'));
+    res
+      .status(err.statusCode ?? 500)
+      .send(err.statusCode ? err.message : 'internet server error');
   }
 };
 

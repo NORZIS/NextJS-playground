@@ -1,4 +1,9 @@
-# Admin panel
+# Playground
+
+This is my playground for NextJs
+
+Here I learned how to use Next and docker, learned how to work with 
+
 
 ## Requirements
 
