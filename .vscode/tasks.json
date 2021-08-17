@@ -1,0 +1,26 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "docker-compose-up",
+      "type": "shell",
+      "command": "docker compose -p shit-admin --project-directory ${workspaceFolder} up",
+      "group": "none",
+      "isBackground": true,
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "docker-compose-rm",
+      "type": "shell",
+      "command": "docker compose -v -p shit-admin --project-directory ${workspaceFolder} rm",
+      "group": "none",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    }
+  ]
+}

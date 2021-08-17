@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "firsttris.vscode-jest-runner",
+    "ms-azuretools.vscode-docker",
+    "mhutchie.git-graph",
+    "mikestead.dotenv",
+    "codezombiech.gitignore",
+    "alefragnani.project-manager",
+    "gruntfuggly.todo-tree",
+    "jpoissonnier.vscode-styled-components",
+    "jonkwheeler.styled-components-snippets",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}

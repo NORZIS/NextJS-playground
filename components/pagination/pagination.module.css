@@ -1,0 +1,12 @@
+.__pagination {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+@media screen and (max-width: 700px) {
+  .__pagination {
+    display: flex;
+    flex-direction: column;
+  }
+}
